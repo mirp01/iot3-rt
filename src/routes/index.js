@@ -4,7 +4,7 @@ var serviceAccount = require("../../serviceAccountKey.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://iot2023-5d518-default-rtdb.firebaseio.com"
+  databaseURL: "https://dbpractica3-31ed3-default-rtdb.firebaseio.com/"
 });
 
 const db = admin.database();
